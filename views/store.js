@@ -398,4 +398,4 @@ purchaseBtn.addEventListener('click',(productId)=>{
     console.log("purchase",response)
    })
     .catch(err =>console.log(err))
-})
+});

@@ -6,3 +6,4 @@ const sequelize = new Sequelize('node-complete', 'root', 'NaVyA@1997', {
 });
 
 module.exports = sequelize;
+

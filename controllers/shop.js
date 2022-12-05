@@ -12,6 +12,7 @@ exports.getProducts = (req, res, next) => {
       //   pageTitle: 'All Products',
       //   path: '/products'
       // });
+      
     })
     .catch(err => {
       res.status(500).json(err);
